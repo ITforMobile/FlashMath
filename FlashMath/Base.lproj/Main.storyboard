@@ -30,6 +30,18 @@
                                 <rect key="frame" x="606" y="519" width="212" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxW-ti-7En">
+                                <rect key="frame" x="884" y="65" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FTa-do-hRx" kind="popover" identifier="showAlternate" popoverAnchorView="OxW-ti-7En" id="eDj-OG-MPJ">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -766,9 +778,6 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="calculateb2:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Owc-K4-CDg"/>
-                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7q3-Yf-xhb">
                                 <rect key="frame" x="204" y="113" width="54" height="44"/>
@@ -1125,6 +1134,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated6:" destination="aT8-rY-LLw" eventType="touchUpInside" id="yAW-VK-0fj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7S-ZF-qBe">
                                 <rect key="frame" x="446" y="205" width="54" height="44"/>
@@ -1139,6 +1151,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated7:" destination="aT8-rY-LLw" eventType="touchUpInside" id="hhH-6s-5lg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2kK-Zq-Tay">
                                 <rect key="frame" x="508" y="205" width="54" height="44"/>
@@ -1153,6 +1168,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated8:" destination="aT8-rY-LLw" eventType="touchUpInside" id="oWL-vt-qAV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cm2-r9-Djw">
                                 <rect key="frame" x="569" y="205" width="54" height="44"/>
@@ -1167,6 +1185,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated9:" destination="aT8-rY-LLw" eventType="touchUpInside" id="SYl-lE-Ztb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19k-JD-UEb">
                                 <rect key="frame" x="629" y="205" width="54" height="44"/>
@@ -1181,6 +1202,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated10:" destination="aT8-rY-LLw" eventType="touchUpInside" id="LuO-z5-AUr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uB5-ep-y31">
                                 <rect key="frame" x="689" y="205" width="54" height="44"/>
@@ -1195,6 +1219,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated11:" destination="aT8-rY-LLw" eventType="touchUpInside" id="fAp-F8-V52"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smy-WE-oT5">
                                 <rect key="frame" x="751" y="205" width="54" height="44"/>
@@ -1209,6 +1236,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated12:" destination="aT8-rY-LLw" eventType="touchUpInside" id="jdd-Ef-4Da"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Gh-uG-Kez">
                                 <rect key="frame" x="815" y="205" width="54" height="44"/>
@@ -1223,6 +1253,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated13:" destination="aT8-rY-LLw" eventType="touchUpInside" id="sdm-Dj-m0r"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wm7-D0-Wqq">
                                 <rect key="frame" x="879" y="205" width="54" height="44"/>
@@ -1237,6 +1270,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated14:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Qxq-t8-QGf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-vi-qvb">
                                 <rect key="frame" x="940" y="205" width="54" height="44"/>
@@ -1251,6 +1287,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated15:" destination="aT8-rY-LLw" eventType="touchUpInside" id="YnX-YE-f6p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YPc-lw-ZmC">
                                 <rect key="frame" x="80" y="205" width="54" height="44"/>
@@ -1265,6 +1304,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated1:" destination="aT8-rY-LLw" eventType="touchUpInside" id="5Gn-UW-YHH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83c-cJ-Hdl">
                                 <rect key="frame" x="143" y="205" width="54" height="44"/>
@@ -1279,6 +1321,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated2:" destination="aT8-rY-LLw" eventType="touchUpInside" id="eC8-gp-kuF"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uaC-zc-iPJ">
                                 <rect key="frame" x="204" y="205" width="54" height="44"/>
@@ -1293,6 +1338,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated3:" destination="aT8-rY-LLw" eventType="touchUpInside" id="i8a-co-qLO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BwQ-cT-gbg">
                                 <rect key="frame" x="265" y="205" width="54" height="44"/>
@@ -1307,6 +1355,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated4:" destination="aT8-rY-LLw" eventType="touchUpInside" id="pE1-9C-3e6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="unW-3i-uFo">
                                 <rect key="frame" x="326" y="205" width="54" height="44"/>
@@ -1321,6 +1372,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculated5:" destination="aT8-rY-LLw" eventType="touchUpInside" id="UaH-9J-SOE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0aE-IP-TK2">
                                 <rect key="frame" x="386" y="251" width="54" height="44"/>
@@ -1349,6 +1403,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee7:" destination="aT8-rY-LLw" eventType="touchUpInside" id="hao-hv-aQa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D9S-Wd-MYS">
                                 <rect key="frame" x="508" y="251" width="54" height="44"/>
@@ -1363,6 +1420,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee8:" destination="aT8-rY-LLw" eventType="touchUpInside" id="5mw-zF-oef"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-mm-Cdr">
                                 <rect key="frame" x="569" y="251" width="54" height="44"/>
@@ -1377,6 +1437,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee9:" destination="aT8-rY-LLw" eventType="touchUpInside" id="iT3-YY-QJP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NdY-5Q-utY">
                                 <rect key="frame" x="629" y="251" width="54" height="44"/>
@@ -1391,6 +1454,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee10:" destination="aT8-rY-LLw" eventType="touchUpInside" id="zbe-U9-FS7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gzz-qy-OnF">
                                 <rect key="frame" x="689" y="251" width="54" height="44"/>
@@ -1405,6 +1471,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee11:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Q35-R8-wep"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gl1-UN-5Hw">
                                 <rect key="frame" x="751" y="251" width="54" height="44"/>
@@ -1419,6 +1488,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee12:" destination="aT8-rY-LLw" eventType="touchUpInside" id="bW0-dv-tpi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZYb-cV-rmZ">
                                 <rect key="frame" x="815" y="251" width="54" height="44"/>
@@ -1433,6 +1505,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee13:" destination="aT8-rY-LLw" eventType="touchUpInside" id="E74-4b-YRB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SUL-NB-N1U">
                                 <rect key="frame" x="879" y="251" width="54" height="44"/>
@@ -1447,6 +1522,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee14:" destination="aT8-rY-LLw" eventType="touchUpInside" id="eSb-h5-2nS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yO4-iA-Q8P">
                                 <rect key="frame" x="940" y="251" width="54" height="44"/>
@@ -1461,6 +1539,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee15:" destination="aT8-rY-LLw" eventType="touchUpInside" id="xk7-SO-PeB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qPy-qT-05N">
                                 <rect key="frame" x="80" y="251" width="54" height="44"/>
@@ -1475,6 +1556,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee1:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Agd-nS-DuW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JyO-pb-al8">
                                 <rect key="frame" x="143" y="251" width="54" height="44"/>
@@ -1503,6 +1587,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee3:" destination="aT8-rY-LLw" eventType="touchUpInside" id="dWg-jB-ORk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZX-op-Zp3">
                                 <rect key="frame" x="265" y="251" width="54" height="44"/>
@@ -1517,6 +1604,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee4:" destination="aT8-rY-LLw" eventType="touchUpInside" id="okb-Wz-K1P"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHa-XL-k1M">
                                 <rect key="frame" x="326" y="251" width="54" height="44"/>
@@ -1531,6 +1621,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatee5:" destination="aT8-rY-LLw" eventType="touchUpInside" id="FEP-0b-PpU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bPE-cn-ac2">
                                 <rect key="frame" x="386" y="298" width="54" height="44"/>
@@ -1545,6 +1638,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef6:" destination="aT8-rY-LLw" eventType="touchUpInside" id="9gV-tO-SPl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vve-b8-JWZ">
                                 <rect key="frame" x="446" y="298" width="54" height="44"/>
@@ -1559,6 +1655,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef7:" destination="aT8-rY-LLw" eventType="touchUpInside" id="VLy-R7-aTT"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YO0-3l-yEX">
                                 <rect key="frame" x="508" y="298" width="54" height="44"/>
@@ -1573,6 +1672,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef8:" destination="aT8-rY-LLw" eventType="touchUpInside" id="3oT-Vu-L7F"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNB-Aq-LcW">
                                 <rect key="frame" x="569" y="298" width="54" height="44"/>
@@ -1587,6 +1689,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef9:" destination="aT8-rY-LLw" eventType="touchUpInside" id="jTB-YE-9wm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tMJ-co-T9B">
                                 <rect key="frame" x="629" y="298" width="54" height="44"/>
@@ -1601,6 +1706,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef10:" destination="aT8-rY-LLw" eventType="touchUpInside" id="x21-pC-JPj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="awS-ut-GbB">
                                 <rect key="frame" x="689" y="298" width="54" height="44"/>
@@ -1615,6 +1723,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef11:" destination="aT8-rY-LLw" eventType="touchUpInside" id="zf7-3j-G4q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2JB-RS-PgG">
                                 <rect key="frame" x="751" y="298" width="54" height="44"/>
@@ -1629,6 +1740,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef12:" destination="aT8-rY-LLw" eventType="touchUpInside" id="PhR-Hl-7Xi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Mr-qS-dBk">
                                 <rect key="frame" x="815" y="298" width="54" height="44"/>
@@ -1643,6 +1757,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef13:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Yeh-rK-5aq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9vH-h7-p76">
                                 <rect key="frame" x="879" y="298" width="54" height="44"/>
@@ -1657,6 +1774,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef14:" destination="aT8-rY-LLw" eventType="touchUpInside" id="2RB-W9-NIj"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T4J-Sb-jPX">
                                 <rect key="frame" x="940" y="298" width="54" height="44"/>
@@ -1671,6 +1791,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef15:" destination="aT8-rY-LLw" eventType="touchUpInside" id="q9p-AE-Xzu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uv-w7-XhD">
                                 <rect key="frame" x="80" y="298" width="54" height="44"/>
@@ -1685,6 +1808,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef1:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Hp6-Y4-Lbo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p0f-cD-GhW">
                                 <rect key="frame" x="143" y="298" width="54" height="44"/>
@@ -1713,6 +1839,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef3:" destination="aT8-rY-LLw" eventType="touchUpInside" id="Kwv-NG-D4I"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqX-5y-hq9">
                                 <rect key="frame" x="265" y="298" width="54" height="44"/>
@@ -1727,6 +1856,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef4:" destination="aT8-rY-LLw" eventType="touchUpInside" id="gll-tP-SAk"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIc-wU-WPX">
                                 <rect key="frame" x="326" y="298" width="54" height="44"/>
@@ -1741,6 +1873,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculatef5:" destination="aT8-rY-LLw" eventType="touchUpInside" id="OtB-BT-QVV"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LWo-eV-T8N">
                                 <rect key="frame" x="386" y="344" width="54" height="44"/>
@@ -2744,7 +2879,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAC-cx-ryk">
-                                <rect key="frame" x="143" y="530" width="54" height="30"/>
+                                <rect key="frame" x="143" y="532" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -3833,8 +3968,8 @@
                         <outlet property="Answerd2" destination="83c-cJ-Hdl" id="wiR-gU-hjI"/>
                         <outlet property="Answerd3" destination="uaC-zc-iPJ" id="y1I-q5-fNj"/>
                         <outlet property="Answerd4" destination="BwQ-cT-gbg" id="8s6-gz-1BX"/>
-                        <outlet property="Answerd5" destination="fuf-bs-vci" id="Hbz-XR-esU"/>
-                        <outlet property="Answerd6" destination="ZUo-Zg-SJK" id="4CT-RJ-cZt"/>
+                        <outlet property="Answerd5" destination="unW-3i-uFo" id="WlF-mX-qom"/>
+                        <outlet property="Answerd6" destination="fuf-bs-vci" id="L71-oc-uoL"/>
                         <outlet property="Answerd7" destination="W7S-ZF-qBe" id="c8m-Rd-SD2"/>
                         <outlet property="Answerd8" destination="2kK-Zq-Tay" id="9gp-9g-4wa"/>
                         <outlet property="Answerd9" destination="cm2-r9-Djw" id="EKl-et-of6"/>
@@ -3849,7 +3984,7 @@
                         <outlet property="Answere3" destination="gcd-DT-dot" id="yuv-SE-M1s"/>
                         <outlet property="Answere4" destination="rZX-op-Zp3" id="Ny4-Gc-QoX"/>
                         <outlet property="Answere5" destination="eHa-XL-k1M" id="8AY-Yp-AIQ"/>
-                        <outlet property="Answere6" destination="0aE-IP-TK2" id="KcX-aT-lFM"/>
+                        <outlet property="Answere6" destination="0aE-IP-TK2" id="8Jn-S4-sVR"/>
                         <outlet property="Answere7" destination="ALq-6f-qyj" id="U2l-TX-sQ5"/>
                         <outlet property="Answere8" destination="D9S-Wd-MYS" id="SUv-7Y-ezi"/>
                         <outlet property="Answere9" destination="Sax-mm-Cdr" id="Y0T-eu-ZA3"/>
@@ -3860,7 +3995,6 @@
                         <outlet property="Answerf13" destination="3Mr-qS-dBk" id="vm0-IR-nM1"/>
                         <outlet property="Answerf14" destination="9vH-h7-p76" id="4JW-FG-kTp"/>
                         <outlet property="Answerf15" destination="T4J-Sb-jPX" id="0sz-QV-MBe"/>
-                        <outlet property="Answerf2" destination="p0f-cD-GhW" id="jDZ-CO-Kbc"/>
                         <outlet property="Answerf3" destination="LCu-rU-gmN" id="SAw-TT-yee"/>
                         <outlet property="Answerf4" destination="wqX-5y-hq9" id="dsZ-QM-y2P"/>
                         <outlet property="Answerf5" destination="zIc-wU-WPX" id="jwA-8F-8I5"/>
@@ -4018,7 +4152,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U2r-Sf-pG5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yVM-ax-DI8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="8Bx-U8-Xwy">
@@ -4027,7 +4161,7 @@
                                     <navigationItem title="Title" id="UD1-FV-3cM">
                                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="8zt-ik-JXd">
                                             <connections>
-                                                <action selector="done:" destination="FTa-do-hRx" id="JoJ-z8-Ud1"/>
+                                                <action selector="done:" destination="FTa-do-hRx" id="Smr-IQ-WC7"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -4040,6 +4174,7 @@
                             <constraint firstItem="8Bx-U8-Xwy" firstAttribute="leading" secondItem="yVM-ax-DI8" secondAttribute="leading" id="Qsp-E0-TDi"/>
                             <constraint firstItem="8Bx-U8-Xwy" firstAttribute="top" secondItem="yVM-ax-DI8" secondAttribute="top" id="z1z-qr-Bs3"/>
                         </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
