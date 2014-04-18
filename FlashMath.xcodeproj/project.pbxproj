@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6A5E2B18F188D600274306 /* line1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6A5E2A18F188D600274306 /* line1.png */; };
+		BF6A5E2D18F1893000274306 /* line2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6A5E2C18F1893000274306 /* line2.png */; };
+		BF96E65718F02F4300C29774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65618F02F4300C29774 /* Foundation.framework */; };
+		BF96E65918F02F4300C29774 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65818F02F4300C29774 /* CoreGraphics.framework */; };
+		BF96E65B18F02F4300C29774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65A18F02F4300C29774 /* UIKit.framework */; };
+		BF96E66118F02F4300C29774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF96E65F18F02F4300C29774 /* InfoPlist.strings */; };
+		BF96E66318F02F4300C29774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E66218F02F4300C29774 /* main.m */; };
+		BF96E66718F02F4300C29774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E66618F02F4300C29774 /* AppDelegate.m */; };
+		BF96E66A18F02F4300C29774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96E66818F02F4300C29774 /* Main.storyboard */; };
+		BF96E66D18F02F4300C29774 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E66C18F02F4300C29774 /* MainViewController.m */; };
+		BF96E67018F02F4300C29774 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E66F18F02F4300C29774 /* FlipsideViewController.m */; };
+		BF96E67218F02F4300C29774 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF96E67118F02F4300C29774 /* Images.xcassets */; };
+		BF96E67918F02F4300C29774 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E67818F02F4300C29774 /* XCTest.framework */; };
+		BF96E67A18F02F4300C29774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65618F02F4300C29774 /* Foundation.framework */; };
+		BF96E67B18F02F4300C29774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65A18F02F4300C29774 /* UIKit.framework */; };
+		BF96E68318F02F4300C29774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF96E68118F02F4300C29774 /* InfoPlist.strings */; };
+		BF96E68518F02F4300C29774 /* FlashMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68418F02F4300C29774 /* FlashMathTests.m */; };
+		BF96E69018F0499B00C29774 /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68F18F0499B00C29774 /* FlashViewController.m */; };
+		BF96E69218F04D3D00C29774 /* kidkalc.png in Resources */ = {isa = PBXBuildFile; fileRef = BF96E69118F04D3D00C29774 /* kidkalc.png */; };
+		BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */ = {isa = PBXBuildFile; fileRef = BF96E69318F04D4E00C29774 /* kidtopper.png */; };
+		BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9818F19B9D00D250F6 /* line2up.png */; };
+		BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9A18F19D4F00D250F6 /* line3up.png */; };
+		BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9C18F19DC000D250F6 /* line4up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF96E67C18F02F4300C29774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF96E64B18F02F4300C29774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF96E65218F02F4300C29774;
+			remoteInfo = FlashMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF6A5E2A18F188D600274306 /* line1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line1.png; sourceTree = "<group>"; };
+		BF6A5E2C18F1893000274306 /* line2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2.png; sourceTree = "<group>"; };
+		BF96E65318F02F4300C29774 /* FlashMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96E65618F02F4300C29774 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF96E65818F02F4300C29774 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF96E65A18F02F4300C29774 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF96E65E18F02F4300C29774 /* FlashMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashMath-Info.plist"; sourceTree = "<group>"; };
+		BF96E66018F02F4300C29774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF96E66218F02F4300C29774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF96E66418F02F4300C29774 /* FlashMath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashMath-Prefix.pch"; sourceTree = "<group>"; };
+		BF96E66518F02F4300C29774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF96E66618F02F4300C29774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF96E66918F02F4300C29774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF96E66B18F02F4300C29774 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF96E66C18F02F4300C29774 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF96E66E18F02F4300C29774 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BF96E66F18F02F4300C29774 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BF96E67118F02F4300C29774 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF96E67718F02F4300C29774 /* FlashMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF96E67818F02F4300C29774 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF96E68018F02F4300C29774 /* FlashMathTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashMathTests-Info.plist"; sourceTree = "<group>"; };
+		BF96E68218F02F4300C29774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF96E68418F02F4300C29774 /* FlashMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashMathTests.m; sourceTree = "<group>"; };
+		BF96E68E18F0499B00C29774 /* FlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
+		BF96E68F18F0499B00C29774 /* FlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
+		BF96E69118F04D3D00C29774 /* kidkalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidkalc.png; sourceTree = "<group>"; };
+		BF96E69318F04D4E00C29774 /* kidtopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidtopper.png; sourceTree = "<group>"; };
+		BFAD3E9818F19B9D00D250F6 /* line2up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2up.png; sourceTree = "<group>"; };
+		BFAD3E9A18F19D4F00D250F6 /* line3up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line3up.png; sourceTree = "<group>"; };
+		BFAD3E9C18F19DC000D250F6 /* line4up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF96E65018F02F4300C29774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E65918F02F4300C29774 /* CoreGraphics.framework in Frameworks */,
+				BF96E65B18F02F4300C29774 /* UIKit.framework in Frameworks */,
+				BF96E65718F02F4300C29774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E67418F02F4300C29774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E67918F02F4300C29774 /* XCTest.framework in Frameworks */,
+				BF96E67B18F02F4300C29774 /* UIKit.framework in Frameworks */,
+				BF96E67A18F02F4300C29774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF96E64A18F02F4300C29774 = {
+			isa = PBXGroup;
+			children = (
+				BFAD3E9818F19B9D00D250F6 /* line2up.png */,
+				BFAD3E9C18F19DC000D250F6 /* line4up.png */,
+				BFAD3E9A18F19D4F00D250F6 /* line3up.png */,
+				BF6A5E2C18F1893000274306 /* line2.png */,
+				BF96E69318F04D4E00C29774 /* kidtopper.png */,
+				BF6A5E2A18F188D600274306 /* line1.png */,
+				BF96E69118F04D3D00C29774 /* kidkalc.png */,
+				BF96E65C18F02F4300C29774 /* FlashMath */,
+				BF96E67E18F02F4300C29774 /* FlashMathTests */,
+				BF96E65518F02F4300C29774 /* Frameworks */,
+				BF96E65418F02F4300C29774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF96E65418F02F4300C29774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E65318F02F4300C29774 /* FlashMath.app */,
+				BF96E67718F02F4300C29774 /* FlashMathTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF96E65518F02F4300C29774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E65618F02F4300C29774 /* Foundation.framework */,
+				BF96E65818F02F4300C29774 /* CoreGraphics.framework */,
+				BF96E65A18F02F4300C29774 /* UIKit.framework */,
+				BF96E67818F02F4300C29774 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF96E65C18F02F4300C29774 /* FlashMath */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E66518F02F4300C29774 /* AppDelegate.h */,
+				BF96E66618F02F4300C29774 /* AppDelegate.m */,
+				BF96E66818F02F4300C29774 /* Main.storyboard */,
+				BF96E66B18F02F4300C29774 /* MainViewController.h */,
+				BF96E66C18F02F4300C29774 /* MainViewController.m */,
+				BF96E68E18F0499B00C29774 /* FlashViewController.h */,
+				BF96E68F18F0499B00C29774 /* FlashViewController.m */,
+				BF96E66E18F02F4300C29774 /* FlipsideViewController.h */,
+				BF96E66F18F02F4300C29774 /* FlipsideViewController.m */,
+				BF96E67118F02F4300C29774 /* Images.xcassets */,
+				BF96E65D18F02F4300C29774 /* Supporting Files */,
+			);
+			path = FlashMath;
+			sourceTree = "<group>";
+		};
+		BF96E65D18F02F4300C29774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E65E18F02F4300C29774 /* FlashMath-Info.plist */,
+				BF96E65F18F02F4300C29774 /* InfoPlist.strings */,
+				BF96E66218F02F4300C29774 /* main.m */,
+				BF96E66418F02F4300C29774 /* FlashMath-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF96E67E18F02F4300C29774 /* FlashMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E68418F02F4300C29774 /* FlashMathTests.m */,
+				BF96E67F18F02F4300C29774 /* Supporting Files */,
+			);
+			path = FlashMathTests;
+			sourceTree = "<group>";
+		};
+		BF96E67F18F02F4300C29774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF96E68018F02F4300C29774 /* FlashMathTests-Info.plist */,
+				BF96E68118F02F4300C29774 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF96E65218F02F4300C29774 /* FlashMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF96E68818F02F4300C29774 /* Build configuration list for PBXNativeTarget "FlashMath" */;
+			buildPhases = (
+				BF96E64F18F02F4300C29774 /* Sources */,
+				BF96E65018F02F4300C29774 /* Frameworks */,
+				BF96E65118F02F4300C29774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashMath;
+			productName = FlashMath;
+			productReference = BF96E65318F02F4300C29774 /* FlashMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF96E67618F02F4300C29774 /* FlashMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF96E68B18F02F4300C29774 /* Build configuration list for PBXNativeTarget "FlashMathTests" */;
+			buildPhases = (
+				BF96E67318F02F4300C29774 /* Sources */,
+				BF96E67418F02F4300C29774 /* Frameworks */,
+				BF96E67518F02F4300C29774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF96E67D18F02F4300C29774 /* PBXTargetDependency */,
+			);
+			name = FlashMathTests;
+			productName = FlashMathTests;
+			productReference = BF96E67718F02F4300C29774 /* FlashMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF96E64B18F02F4300C29774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KeithMobile;
+				TargetAttributes = {
+					BF96E67618F02F4300C29774 = {
+						TestTargetID = BF96E65218F02F4300C29774;
+					};
+				};
+			};
+			buildConfigurationList = BF96E64E18F02F4300C29774 /* Build configuration list for PBXProject "FlashMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF96E64A18F02F4300C29774;
+			productRefGroup = BF96E65418F02F4300C29774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF96E65218F02F4300C29774 /* FlashMath */,
+				BF96E67618F02F4300C29774 /* FlashMathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF96E65118F02F4300C29774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E67218F02F4300C29774 /* Images.xcassets in Resources */,
+				BF96E69218F04D3D00C29774 /* kidkalc.png in Resources */,
+				BF96E66118F02F4300C29774 /* InfoPlist.strings in Resources */,
+				BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */,
+				BF96E66A18F02F4300C29774 /* Main.storyboard in Resources */,
+				BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */,
+				BF6A5E2B18F188D600274306 /* line1.png in Resources */,
+				BF6A5E2D18F1893000274306 /* line2.png in Resources */,
+				BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */,
+				BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E67518F02F4300C29774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E68318F02F4300C29774 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF96E64F18F02F4300C29774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E69018F0499B00C29774 /* FlashViewController.m in Sources */,
+				BF96E66718F02F4300C29774 /* AppDelegate.m in Sources */,
+				BF96E66D18F02F4300C29774 /* MainViewController.m in Sources */,
+				BF96E67018F02F4300C29774 /* FlipsideViewController.m in Sources */,
+				BF96E66318F02F4300C29774 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF96E67318F02F4300C29774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF96E68518F02F4300C29774 /* FlashMathTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF96E67D18F02F4300C29774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF96E65218F02F4300C29774 /* FlashMath */;
+			targetProxy = BF96E67C18F02F4300C29774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF96E65F18F02F4300C29774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF96E66018F02F4300C29774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF96E66818F02F4300C29774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF96E66918F02F4300C29774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF96E68118F02F4300C29774 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF96E68218F02F4300C29774 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF96E68618F02F4300C29774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BF96E68718F02F4300C29774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF96E68918F02F4300C29774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
+				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF96E68A18F02F4300C29774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
+				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF96E68C18F02F4300C29774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashMath.app/FlashMath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlashMathTests/FlashMathTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF96E68D18F02F4300C29774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashMath.app/FlashMath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
+				INFOPLIST_FILE = "FlashMathTests/FlashMathTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF96E64E18F02F4300C29774 /* Build configuration list for PBXProject "FlashMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E68618F02F4300C29774 /* Debug */,
+				BF96E68718F02F4300C29774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF96E68818F02F4300C29774 /* Build configuration list for PBXNativeTarget "FlashMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E68918F02F4300C29774 /* Debug */,
+				BF96E68A18F02F4300C29774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF96E68B18F02F4300C29774 /* Build configuration list for PBXNativeTarget "FlashMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF96E68C18F02F4300C29774 /* Debug */,
+				BF96E68D18F02F4300C29774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF96E64B18F02F4300C29774 /* Project object */;
+}
