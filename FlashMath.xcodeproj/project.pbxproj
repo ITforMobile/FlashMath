@@ -25,11 +25,12 @@
 		BF96E68318F02F4300C29774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF96E68118F02F4300C29774 /* InfoPlist.strings */; };
 		BF96E68518F02F4300C29774 /* FlashMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68418F02F4300C29774 /* FlashMathTests.m */; };
 		BF96E69018F0499B00C29774 /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68F18F0499B00C29774 /* FlashViewController.m */; };
-		BF96E69218F04D3D00C29774 /* kidkalc.png in Resources */ = {isa = PBXBuildFile; fileRef = BF96E69118F04D3D00C29774 /* kidkalc.png */; };
 		BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */ = {isa = PBXBuildFile; fileRef = BF96E69318F04D4E00C29774 /* kidtopper.png */; };
 		BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9818F19B9D00D250F6 /* line2up.png */; };
 		BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9A18F19D4F00D250F6 /* line3up.png */; };
 		BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9C18F19DC000D250F6 /* line4up.png */; };
+		BFFDE55A1902A12F00C42D20 /* FlashMath_back.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFDE5591902A12F00C42D20 /* FlashMath_back.png */; };
+		BFFDE55D1902A33900C42D20 /* FlashMath_main.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFDE55C1902A33900C42D20 /* FlashMath_main.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,11 +69,12 @@
 		BF96E68418F02F4300C29774 /* FlashMathTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashMathTests.m; sourceTree = "<group>"; };
 		BF96E68E18F0499B00C29774 /* FlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
 		BF96E68F18F0499B00C29774 /* FlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
-		BF96E69118F04D3D00C29774 /* kidkalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidkalc.png; sourceTree = "<group>"; };
 		BF96E69318F04D4E00C29774 /* kidtopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidtopper.png; sourceTree = "<group>"; };
 		BFAD3E9818F19B9D00D250F6 /* line2up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2up.png; sourceTree = "<group>"; };
 		BFAD3E9A18F19D4F00D250F6 /* line3up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line3up.png; sourceTree = "<group>"; };
 		BFAD3E9C18F19DC000D250F6 /* line4up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4up.png; sourceTree = "<group>"; };
+		BFFDE5591902A12F00C42D20 /* FlashMath_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_back.png; sourceTree = "<group>"; };
+		BFFDE55C1902A33900C42D20 /* FlashMath_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_main.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 		BF96E64A18F02F4300C29774 = {
 			isa = PBXGroup;
 			children = (
+				BFFDE55C1902A33900C42D20 /* FlashMath_main.png */,
 				BFAD3E9818F19B9D00D250F6 /* line2up.png */,
+				BFFDE5591902A12F00C42D20 /* FlashMath_back.png */,
 				BFAD3E9C18F19DC000D250F6 /* line4up.png */,
 				BFAD3E9A18F19D4F00D250F6 /* line3up.png */,
 				BF6A5E2C18F1893000274306 /* line2.png */,
 				BF96E69318F04D4E00C29774 /* kidtopper.png */,
 				BF6A5E2A18F188D600274306 /* line1.png */,
-				BF96E69118F04D3D00C29774 /* kidkalc.png */,
 				BF96E65C18F02F4300C29774 /* FlashMath */,
 				BF96E67E18F02F4300C29774 /* FlashMathTests */,
 				BF96E65518F02F4300C29774 /* Frameworks */,
@@ -260,11 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF96E67218F02F4300C29774 /* Images.xcassets in Resources */,
-				BF96E69218F04D3D00C29774 /* kidkalc.png in Resources */,
 				BF96E66118F02F4300C29774 /* InfoPlist.strings in Resources */,
 				BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */,
 				BF96E66A18F02F4300C29774 /* Main.storyboard in Resources */,
+				BFFDE55A1902A12F00C42D20 /* FlashMath_back.png in Resources */,
 				BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */,
+				BFFDE55D1902A33900C42D20 /* FlashMath_main.png in Resources */,
 				BF6A5E2B18F188D600274306 /* line1.png in Resources */,
 				BF6A5E2D18F1893000274306 /* line2.png in Resources */,
 				BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */,

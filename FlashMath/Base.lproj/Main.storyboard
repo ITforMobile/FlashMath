@@ -7,6 +7,7 @@
         <!--Main View Controller-->
         <scene sceneID="0NU-cZ-2PS">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asY-HQ-Guj" sceneMemberID="firstResponder"/>
                 <viewController id="aVO-UE-KGo" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="THG-IO-ERe"/>
@@ -16,8 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="FlashMath_back.png" translatesAutoresizingMaskIntoConstraints="NO" id="VVw-ZJ-RMK">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUB-LA-75h">
-                                <rect key="frame" x="834" y="634" width="46" height="30"/>
+                                <rect key="frame" x="728" y="407" width="166" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,12 +31,8 @@
                                     <segue destination="aT8-rY-LLw" kind="modal" modalTransitionStyle="coverVertical" id="Qmz-TH-19D"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="kidtopper.png" translatesAutoresizingMaskIntoConstraints="NO" id="Baa-BF-hpv">
-                                <rect key="frame" x="606" y="519" width="212" height="200"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxW-ti-7En">
-                                <rect key="frame" x="884" y="65" width="22" height="22"/>
+                                <rect key="frame" x="941" y="195" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -48,7 +49,6 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="asY-HQ-Guj" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-237" y="5"/>
         </scene>
@@ -64,8 +64,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="kidkalc.png" translatesAutoresizingMaskIntoConstraints="NO" id="HOr-mu-vuj">
-                                <rect key="frame" x="0.0" y="-1" width="1024" height="768"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="FlashMath_main.png" translatesAutoresizingMaskIntoConstraints="NO" id="eTo-Ds-hgw">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzA-vH-yYX">
@@ -1926,13 +1926,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W39-bV-wVl">
-                                <rect key="frame" x="569" y="344" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bWJ-S7-h4L">
                                 <rect key="frame" x="629" y="344" width="54" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -4141,7 +4134,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OR4-Vo-aem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-333" y="1210"/>
+            <point key="canvasLocation" x="-317" y="1211"/>
         </scene>
         <!--Flipside View Controller-->
         <scene sceneID="lym-h4-kxm">
@@ -4184,8 +4177,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kidkalc.png" width="1024" height="768"/>
-        <image name="kidtopper.png" width="212" height="200"/>
+        <image name="FlashMath_back.png" width="1024" height="768"/>
+        <image name="FlashMath_main.png" width="1024" height="768"/>
         <image name="line2.png" width="1087" height="5"/>
         <image name="line4up.png" width="5" height="701"/>
     </resources>
