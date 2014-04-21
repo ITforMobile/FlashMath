@@ -7,7 +7,6 @@
         <!--Main View Controller-->
         <scene sceneID="0NU-cZ-2PS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="asY-HQ-Guj" sceneMemberID="firstResponder"/>
                 <viewController id="aVO-UE-KGo" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="THG-IO-ERe"/>
@@ -49,6 +48,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asY-HQ-Guj" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-237" y="5"/>
         </scene>
