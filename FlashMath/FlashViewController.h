@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface FlashViewController : UIViewController
+@interface FlashViewController : UIViewController <ADBannerViewDelegate>
 
 {
     
@@ -28,9 +29,7 @@
     IBOutlet UILabel    *Answera10;
     IBOutlet UILabel    *Answera11;
     IBOutlet UILabel    *Answera12;
-    IBOutlet UILabel    *Answera13;
-    IBOutlet UILabel    *Answera14;
-    IBOutlet UILabel    *Answera15;
+
     
     IBOutlet UILabel    *Answerb1;
     IBOutlet UILabel    *Answerb2;
@@ -44,9 +43,7 @@
     IBOutlet UILabel    *Answerb10;
     IBOutlet UILabel    *Answerb11;
     IBOutlet UILabel    *Answerb12;
-    IBOutlet UILabel    *Answerb13;
-    IBOutlet UILabel    *Answerb14;
-    IBOutlet UILabel    *Answerb15;
+
     
     IBOutlet UILabel    *Answerc1;
     IBOutlet UILabel    *Answerc2;
@@ -60,9 +57,7 @@
     IBOutlet UILabel    *Answerc10;
     IBOutlet UILabel    *Answerc11;
     IBOutlet UILabel    *Answerc12;
-    IBOutlet UILabel    *Answerc13;
-    IBOutlet UILabel    *Answerc14;
-    IBOutlet UILabel    *Answerc15;
+
     
     
     IBOutlet UILabel    *Answerd1;
@@ -77,9 +72,7 @@
     IBOutlet UILabel    *Answerd10;
     IBOutlet UILabel    *Answerd11;
     IBOutlet UILabel    *Answerd12;
-    IBOutlet UILabel    *Answerd13;
-    IBOutlet UILabel    *Answerd14;
-    IBOutlet UILabel    *Answerd15;
+
     
     IBOutlet UILabel    *Answere1;
     IBOutlet UILabel    *Answere2;
@@ -93,9 +86,7 @@
     IBOutlet UILabel    *Answere10;
     IBOutlet UILabel    *Answere11;
     IBOutlet UILabel    *Answere12;
-    IBOutlet UILabel    *Answere13;
-    IBOutlet UILabel    *Answere14;
-    IBOutlet UILabel    *Answere15;
+
     
     IBOutlet UILabel    *Answerf1;
     IBOutlet UILabel    *Answerf2;
@@ -109,9 +100,7 @@
     IBOutlet UILabel    *Answerf10;
     IBOutlet UILabel    *Answerf11;
     IBOutlet UILabel    *Answerf12;
-    IBOutlet UILabel    *Answerf13;
-    IBOutlet UILabel    *Answerf14;
-    IBOutlet UILabel    *Answerf15;
+
     
     
     IBOutlet UILabel    *Answerg1;
@@ -126,9 +115,7 @@
     IBOutlet UILabel    *Answerg10;
     IBOutlet UILabel    *Answerg11;
     IBOutlet UILabel    *Answerg12;
-    IBOutlet UILabel    *Answerg13;
-    IBOutlet UILabel    *Answerg14;
-    IBOutlet UILabel    *Answerg15;
+
     
     IBOutlet UILabel    *Answerh1;
     IBOutlet UILabel    *Answerh2;
@@ -142,9 +129,7 @@
     IBOutlet UILabel    *Answerh10;
     IBOutlet UILabel    *Answerh11;
     IBOutlet UILabel    *Answerh12;
-    IBOutlet UILabel    *Answerh13;
-    IBOutlet UILabel    *Answerh14;
-    IBOutlet UILabel    *Answerh15;
+
     
     IBOutlet UILabel    *Answeri1;
     IBOutlet UILabel    *Answeri2;
@@ -158,9 +143,7 @@
     IBOutlet UILabel    *Answeri10;
     IBOutlet UILabel    *Answeri11;
     IBOutlet UILabel    *Answeri12;
-    IBOutlet UILabel    *Answeri13;
-    IBOutlet UILabel    *Answeri14;
-    IBOutlet UILabel    *Answeri15;
+
     
     IBOutlet UILabel    *Answerj1;
     IBOutlet UILabel    *Answerj2;
@@ -174,9 +157,7 @@
     IBOutlet UILabel    *Answerj10;
     IBOutlet UILabel    *Answerj11;
     IBOutlet UILabel    *Answerj12;
-    IBOutlet UILabel    *Answerj13;
-    IBOutlet UILabel    *Answerj14;
-    IBOutlet UILabel    *Answerj15;
+
     
     IBOutlet UILabel    *Answerk1;
     IBOutlet UILabel    *Answerk2;
@@ -190,9 +171,7 @@
     IBOutlet UILabel    *Answerk10;
     IBOutlet UILabel    *Answerk11;
     IBOutlet UILabel    *Answerk12;
-    IBOutlet UILabel    *Answerk13;
-    IBOutlet UILabel    *Answerk14;
-    IBOutlet UILabel    *Answerk15;
+
     
     
     IBOutlet UILabel    *Answerl1;
@@ -207,58 +186,7 @@
     IBOutlet UILabel    *Answerl10;
     IBOutlet UILabel    *Answerl11;
     IBOutlet UILabel    *Answerl12;
-    IBOutlet UILabel    *Answerl13;
-    IBOutlet UILabel    *Answerl14;
-    IBOutlet UILabel    *Answerl15;
-    
-    IBOutlet UILabel    *Answerm1;
-    IBOutlet UILabel    *Answerm2;
-    IBOutlet UILabel    *Answerm3;
-    IBOutlet UILabel    *Answerm4;
-    IBOutlet UILabel    *Answerm5;
-    IBOutlet UILabel    *Answerm6;
-    IBOutlet UILabel    *Answerm7;
-    IBOutlet UILabel    *Answerm8;
-    IBOutlet UILabel    *Answerm9;
-    IBOutlet UILabel    *Answerm10;
-    IBOutlet UILabel    *Answerm11;
-    IBOutlet UILabel    *Answerm12;
-    IBOutlet UILabel    *Answerm13;
-    IBOutlet UILabel    *Answerm14;
-    IBOutlet UILabel    *Answerm15;
-    
-    IBOutlet UILabel    *Answern1;
-    IBOutlet UILabel    *Answern2;
-    IBOutlet UILabel    *Answern3;
-    IBOutlet UILabel    *Answern4;
-    IBOutlet UILabel    *Answern5;
-    IBOutlet UILabel    *Answern6;
-    IBOutlet UILabel    *Answern7;
-    IBOutlet UILabel    *Answern8;
-    IBOutlet UILabel    *Answern9;
-    IBOutlet UILabel    *Answern10;
-    IBOutlet UILabel    *Answern11;
-    IBOutlet UILabel    *Answern12;
-    IBOutlet UILabel    *Answern13;
-    IBOutlet UILabel    *Answern14;
-    IBOutlet UILabel    *Answern15;
-    
-    IBOutlet UILabel    *Answero1;
-    IBOutlet UILabel    *Answero2;
-    IBOutlet UILabel    *Answero3;
-    IBOutlet UILabel    *Answero4;
-    IBOutlet UILabel    *Answero5;
-    IBOutlet UILabel    *Answero6;
-    IBOutlet UILabel    *Answero7;
-    IBOutlet UILabel    *Answero8;
-    IBOutlet UILabel    *Answero9;
-    IBOutlet UILabel    *Answero10;
-    IBOutlet UILabel    *Answero11;
-    IBOutlet UILabel    *Answero12;
-    IBOutlet UILabel    *Answero13;
-    IBOutlet UILabel    *Answero14;
-    IBOutlet UILabel    *Answero15;
-    
+
 
     
 

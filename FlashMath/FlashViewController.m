@@ -29,6 +29,28 @@
     // Do any additional setup after loading the view.
 }
 
+
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner  {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1];
+    [UIView commitAnimations];
+    
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
+}
+
+
+
+
+
+
 - (IBAction)calculatea1:(id)sender {
     float aaaa = 1;
     Answera1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
@@ -47,14 +69,40 @@
     Answera1.text = @"";
     
     
-    
+}
 
-
+- (IBAction)calculatea2:(id)sender {
+    float aaaa = 2;
+    Answera2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
+    Answerb1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
     
+    
+    
+    [NSTimer scheduledTimerWithTimeInterval:2.0
+                                     target:self
+                                   selector:@selector(targetMethoda2:)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+-(void)targetMethoda2:(NSTimer*)timer{
+    
+    // set hidden to the label
+    Answera2.text =@"";
+    Answerb1.text =@"";
     
     
     
 }
+
+
+
+
+
+
+
+
+
 - (IBAction)calculatea3:(id)sender {
     float aaaa = 3;
     Answera3.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
@@ -288,71 +336,6 @@
 
 
 }
-- (IBAction)calculatea13:(id)sender {
-    float aaaa = 13;
-    Answera13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethoda13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethoda13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answera13.text =@"";
-    Answerm1.text =@"";
-    
-    
-    
-
-}
-- (IBAction)calculatea14:(id)sender {
-    float aaaa = 14;
-    Answera14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethoda14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethoda14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answera14.text =@"";
-    Answern1.text =@"";
-    
-    
-
-}
-- (IBAction)calculatea15:(id)sender {
-    float aaaa = 15;
-    Answera15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethoda15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethoda15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answera15.text =@"";
-    Answero1.text =@"";
-    
-    
-    
-}
-
 - (IBAction)calculateb1:(id)sender {
     float aaaa = 2;
     Answerb1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
@@ -441,6 +424,7 @@
     
     
 }
+
 - (IBAction)calculateb5:(id)sender {
     float aaaa = 10;
     Answerb5.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
@@ -620,69 +604,6 @@
 
 
 
-
-- (IBAction)calculateb13:(id)sender {
-    float aaaa = 26;
-    Answerb13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodb13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodb13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerb13.text =@"";
-    Answerm2.text =@"";
-    
-}
-
-
-- (IBAction)calculateb14:(id)sender {
-    float aaaa = 28;
-    Answerb14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodb14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodb14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerb14.text =@"";
-    Answern2.text =@"";
-    
-    
-}
-
-- (IBAction)calculateb15:(id)sender {
-    float aaaa = 30;
-    Answerb15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodb15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodb15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerb15.text =@"";
-    Answero2.text =@"";
-    
-    
-}
 
 
 - (IBAction)calculatec1:(id)sender {
@@ -913,6 +834,8 @@
     
 }
 
+
+
 - (IBAction)calculatec11:(id)sender {
     float aaaa = 33;
     Answerc11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
@@ -930,6 +853,8 @@
     // set hidden to the label
     Answerc11.text =@"";
     Answerk3.text =@"";
+    
+    
     
 }
 
@@ -954,65 +879,6 @@
 }
 
 
-- (IBAction)calculatec13:(id)sender {
-    float aaaa = 39;
-    Answerc13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm3.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodc13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodc13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerc13.text =@"";
-    Answerm3.text =@"";
-    
-}
-
-- (IBAction)calculatec14:(id)sender {
-    float aaaa = 42;
-    Answerc14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern3.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodc14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodc14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerc14.text =@"";
-    Answern3.text =@"";
-    
-}
-
-- (IBAction)calculatec15:(id)sender {
-    float aaaa = 45;
-    Answerc15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero3.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodc15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodc15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerc15.text =@"";
-    Answero3.text =@"";
-    
-}
 
 - (IBAction)calculated1:(id)sender {
     float aaaa = 4;
@@ -1030,7 +896,7 @@
     
     // set hidden to the label
     Answerd1.text =@"";
-    Answerb4.text =@"";
+    Answera4.text =@"";
     
 }
 
@@ -1249,69 +1115,6 @@
     
 }
 
-- (IBAction)calculated13:(id)sender {
-    float aaaa = 52;
-    Answerd13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm4.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodd13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodd13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerd13.text =@"";
-    Answerm4.text =@"";
-    
-}
-
-- (IBAction)calculated14:(id)sender {
-    float aaaa = 56;
-    Answerd14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern4.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodd14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodd14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerd14.text =@"";
-    Answern4.text =@"";
-    
-}
-- (IBAction)calculated15:(id)sender {
-    float aaaa = 60;
-    Answerd15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero4.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodd15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodd15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerd15.text =@"";
-    Answero4.text =@"";
-    
-}
-
-
-
-
-
 
 - (IBAction)calculatee1:(id)sender {
     float aaaa = 5;
@@ -1334,6 +1137,26 @@
 }
 
 
+
+- (IBAction)calculatee2:(id)sender {
+    float aaaa = 10;
+    Answere2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
+    Answerb5.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
+    
+    [NSTimer scheduledTimerWithTimeInterval:2.0
+                                     target:self
+                                   selector:@selector(targetMethode2:)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+-(void)targetMethode2:(NSTimer*)timer{
+    
+    // set hidden to the label
+    Answere2.text =@"";
+    Answerb5.text =@"";
+    
+}
 
 
 
@@ -1532,65 +1355,6 @@
     // set hidden to the label
     Answere12.text =@"";
     Answerl5.text =@"";
-    
-}
-
-- (IBAction)calculatee13:(id)sender {
-    float aaaa = 65;
-    Answere13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm5.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethode13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethode13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answere13.text =@"";
-    Answerm5.text =@"";
-    
-}
-
-- (IBAction)calculatee14:(id)sender {
-    float aaaa = 70;
-    Answere14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern5.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethode14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethode14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answere14.text =@"";
-    Answern5.text =@"";
-    
-}
-- (IBAction)calculatee15:(id)sender {
-    float aaaa = 75;
-    Answere15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero5.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethode15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethode15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answere15.text =@"";
-    Answero5.text =@"";
     
 }
 
@@ -1820,7 +1584,7 @@
 }
 
 - (IBAction)calculatef12:(id)sender {
-    float aaaa = 66;
+    float aaaa = 72;
     Answerf12.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
     Answerl6.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
     
@@ -1836,70 +1600,6 @@
     // set hidden to the label
     Answerf12.text =@"";
     Answerl6.text =@"";
-    
-}
-
-- (IBAction)calculatef13:(id)sender {
-    float aaaa = 78;
-    Answerf13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm6.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodf13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodf13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerf13.text =@"";
-    Answerm6.text =@"";
-    
-}
-
-
-
-
-- (IBAction)calculatef14:(id)sender {
-    float aaaa = 84;
-    Answerf14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern6.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodf14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodf14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerf14.text =@"";
-    Answern6.text =@"";
-    
-}
-
-
-- (IBAction)calculatef15:(id)sender {
-    float aaaa = 90;
-    Answerf15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero6.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodf15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodf15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerf15.text =@"";
-    Answero6.text =@"";
     
 }
 
@@ -2143,71 +1843,6 @@
     Answerl7.text =@"";
     
 }
-
-- (IBAction)calculateg13:(id)sender {
-    float aaaa = 91;
-    Answerg13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm7.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodg13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodg13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerg13.text =@"";
-    Answerm7.text =@"";
-    
-}
-
-- (IBAction)calculateg14:(id)sender {
-    float aaaa = 98;
-    Answerg14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern7.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodg14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodg14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerg14.text =@"";
-    Answern7.text =@"";
-    
-}
-
-- (IBAction)calculateg15:(id)sender {
-    float aaaa = 105;
-    Answerg15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero7.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodg15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodg15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answera15.text =@"";
-    Answero7.text =@"";
-
-
-
-
-
-}
-
 
 
 - (IBAction)calculateh1:(id)sender {
@@ -2459,69 +2094,6 @@
 
 
 
-- (IBAction)calculateh13:(id)sender {
-    float aaaa = 104;
-    Answerh13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm8.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodh13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodh13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerh13.text =@"";
-    Answerm8.text =@"";
-    
-}
-
-
-
-- (IBAction)calculateh14:(id)sender {
-    float aaaa = 112;
-    Answerh14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern8.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodh14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodh14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerh14.text =@"";
-    Answern8.text =@"";
-    
-}
-
-
-
-- (IBAction)calculateh15:(id)sender {
-    float aaaa = 120;
-    Answerh15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero8.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodh15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodh15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerh15.text =@"";
-    Answero8.text =@"";
-    
-}
 
 - (IBAction)calculatei1:(id)sender {
     float aaaa = 9;
@@ -2762,68 +2334,6 @@
     
 }
 
-- (IBAction)calculatei13:(id)sender {
-    float aaaa = 117;
-    Answeri13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm9.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodi13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodi13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answeri13.text =@"";
-    Answerm9.text =@"";
-    
-}
-
-
-- (IBAction)calculatei14:(id)sender {
-    float aaaa = 126;
-    Answeri14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern9.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodi14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodi14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answeri14.text =@"";
-    Answern9.text =@"";
-    
-}
-
-
-- (IBAction)calculatei15:(id)sender {
-    float aaaa = 135;
-    Answeri15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero9.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodi15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodi15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answeri15.text =@"";
-    Answero9.text =@"";
-    
-}
-
 
 
 - (IBAction)calculatej1:(id)sender {
@@ -3038,7 +2548,7 @@
 - (IBAction)calculatej11:(id)sender {
     float aaaa = 110;
     Answerj11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerk11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
+    Answerk10.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
     
     [NSTimer scheduledTimerWithTimeInterval:2.0
                                      target:self
@@ -3051,7 +2561,7 @@
     
     // set hidden to the label
     Answerj11.text =@"";
-    Answerk11.text =@"";
+    Answerk10.text =@"";
     
 }
 
@@ -3059,7 +2569,7 @@
 - (IBAction)calculatej12:(id)sender {
     float aaaa = 120;
     Answerj12.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerl11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
+    Answerl10.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
     
     [NSTimer scheduledTimerWithTimeInterval:2.0
                                      target:self
@@ -3072,69 +2582,10 @@
     
     // set hidden to the label
     Answerj12.text =@"";
-    Answerl11.text =@"";
+    Answerl10.text =@"";
     
 }
 
-- (IBAction)calculatej13:(id)sender {
-    float aaaa = 130;
-    Answerj13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodj13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodj13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerj13.text =@"";
-    Answerm11.text =@"";
-    
-}
-
-- (IBAction)calculatej14:(id)sender {
-    float aaaa = 140;
-    Answerj14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodj14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodj14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerj14.text =@"";
-    Answern11.text =@"";
-    
-}
-
-- (IBAction)calculatej15:(id)sender {
-    float aaaa = 150;
-    Answerj15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodj15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodj15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerj15.text =@"";
-    Answero11.text =@"";
-    
-}
 
 - (IBAction)calculatek1:(id)sender {
     float aaaa = 11;
@@ -3388,69 +2839,6 @@
 }
 
 
-- (IBAction)calculatek13:(id)sender {
-    float aaaa = 143;
-    Answerk13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodk13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodk13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerk13.text =@"";
-    Answerm11.text =@"";
-    
-}
-
-
-
-- (IBAction)calculatek14:(id)sender {
-    float aaaa = 154;
-    Answerk14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodk14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodk14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerk14.text =@"";
-    Answern11.text =@"";
-    
-}
-
-
-- (IBAction)calculatek15:(id)sender {
-    float aaaa = 165;
-    Answerk15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero11.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodk15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodk15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerk15.text =@"";
-    Answero11.text =@"";
-    
-}
-
 
 - (IBAction)calculatel1:(id)sender {
     float aaaa = 12;
@@ -3693,133 +3081,6 @@
     Answerl12.text =@"";
     
 }
-
-
-- (IBAction)calculatel13:(id)sender {
-    float aaaa = 156;
-    Answerl13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerm12.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodl13:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodl13:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerl13.text =@"";
-    Answerm12.text =@"";
-    
-}
-
-- (IBAction)calculatel14:(id)sender {
-    float aaaa = 168;
-    Answerl14.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answern12.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodl14:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodl14:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerl14.text =@"";
-    Answern12.text =@"";
-    
-}
-
-
-- (IBAction)calculatel15:(id)sender {
-    float aaaa = 180;
-    Answerl15.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answero12.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodl15:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodl15:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerl15.text =@"";
-    Answero12.text =@"";
-    
-}
-
-
-
-- (IBAction)calculatem1:(id)sender {
-    float aaaa = 13;
-    Answerm1.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answera13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodm1:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodm1:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerm1.text =@"";
-    Answera13.text =@"";
-    
-}
-
-
-- (IBAction)calculatem2:(id)sender {
-    float aaaa = 26;
-    Answerm2.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerb13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodm2:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodm2:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerm1.text =@"";
-    Answerb13.text =@"";
-    
-}
-
-- (IBAction)calculatem3:(id)sender {
-    float aaaa = 39;
-    Answerm3.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    Answerb13.text = [ [NSString alloc] initWithFormat:@"%.0f ",aaaa];
-    
-    [NSTimer scheduledTimerWithTimeInterval:2.0
-                                     target:self
-                                   selector:@selector(targetMethodm3:)
-                                   userInfo:nil
-                                    repeats:NO];
-}
-
--(void)targetMethodm3:(NSTimer*)timer{
-    
-    // set hidden to the label
-    Answerm3.text =@"";
-    Answerc13.text =@"";
-    
-}
-
-
 
 
 

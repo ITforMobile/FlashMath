@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5E8E56190BE50E00953145 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E55190BE50E00953145 /* arrow.png */; };
+		BF5E8E58190BFD5F00953145 /* kalvin_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E57190BFD5F00953145 /* kalvin_circle.png */; };
+		BF5E8E5C190BFE8600953145 /* kidtopper-75.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E5B190BFE8600953145 /* kidtopper-75.png */; };
 		BF6A5E2B18F188D600274306 /* line1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6A5E2A18F188D600274306 /* line1.png */; };
 		BF6A5E2D18F1893000274306 /* line2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6A5E2C18F1893000274306 /* line2.png */; };
 		BF96E65718F02F4300C29774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96E65618F02F4300C29774 /* Foundation.framework */; };
@@ -26,11 +29,21 @@
 		BF96E68518F02F4300C29774 /* FlashMathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68418F02F4300C29774 /* FlashMathTests.m */; };
 		BF96E69018F0499B00C29774 /* FlashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96E68F18F0499B00C29774 /* FlashViewController.m */; };
 		BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */ = {isa = PBXBuildFile; fileRef = BF96E69318F04D4E00C29774 /* kidtopper.png */; };
+		BFA5A43B190F028800FC93C9 /* newbackarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA5A43A190F028800FC93C9 /* newbackarrow.png */; };
+		BFA5A43F190F05AC00FC93C9 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA5A43E190F05AC00FC93C9 /* green.png */; };
+		BFAA3C58190ECA170041644D /* itunesartwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFAA3C57190ECA170041644D /* itunesartwork.jpg */; };
 		BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9818F19B9D00D250F6 /* line2up.png */; };
 		BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9A18F19D4F00D250F6 /* line3up.png */; };
 		BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFAD3E9C18F19DC000D250F6 /* line4up.png */; };
-		BFFDE55A1902A12F00C42D20 /* FlashMath_back.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFDE5591902A12F00C42D20 /* FlashMath_back.png */; };
-		BFFDE55D1902A33900C42D20 /* FlashMath_main.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFDE55C1902A33900C42D20 /* FlashMath_main.png */; };
+		BFC93BCB190C44A5007E51EE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC93BCA190C44A5007E51EE /* iAd.framework */; };
+		BFEF1903190CA927004A768A /* line3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1902190CA927004A768A /* line3.png */; };
+		BFEF1907190CAB8D004A768A /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1906190CAB8D004A768A /* rocket.png */; };
+		BFEF190B190CAC46004A768A /* kalvinnrocket.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF190A190CAC46004A768A /* kalvinnrocket.png */; };
+		BFEF190D190CAEB8004A768A /* FlashMath_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF190C190CAEB8004A768A /* FlashMath_launch.png */; };
+		BFEF1911190CAFAA004A768A /* FlashMath_mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1910190CAFAA004A768A /* FlashMath_mainmenu.png */; };
+		BFEF1913190CB24E004A768A /* mathbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1912190CB24E004A768A /* mathbutton.png */; };
+		BFEF1915190CB6AE004A768A /* FlashMath_main.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1914190CB6AE004A768A /* FlashMath_main.png */; };
+		BFEF1917190CB832004A768A /* popover.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEF1916190CB832004A768A /* popover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5E8E55190BE50E00953145 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		BF5E8E57190BFD5F00953145 /* kalvin_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalvin_circle.png; sourceTree = "<group>"; };
+		BF5E8E5B190BFE8600953145 /* kidtopper-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidtopper-75.png"; sourceTree = "<group>"; };
 		BF6A5E2A18F188D600274306 /* line1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line1.png; sourceTree = "<group>"; };
 		BF6A5E2C18F1893000274306 /* line2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2.png; sourceTree = "<group>"; };
 		BF96E65318F02F4300C29774 /* FlashMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,11 +86,21 @@
 		BF96E68E18F0499B00C29774 /* FlashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashViewController.h; sourceTree = "<group>"; };
 		BF96E68F18F0499B00C29774 /* FlashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashViewController.m; sourceTree = "<group>"; };
 		BF96E69318F04D4E00C29774 /* kidtopper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kidtopper.png; sourceTree = "<group>"; };
+		BFA5A43A190F028800FC93C9 /* newbackarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbackarrow.png; sourceTree = "<group>"; };
+		BFA5A43E190F05AC00FC93C9 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		BFAA3C57190ECA170041644D /* itunesartwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itunesartwork.jpg; sourceTree = "<group>"; };
 		BFAD3E9818F19B9D00D250F6 /* line2up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2up.png; sourceTree = "<group>"; };
 		BFAD3E9A18F19D4F00D250F6 /* line3up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line3up.png; sourceTree = "<group>"; };
 		BFAD3E9C18F19DC000D250F6 /* line4up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line4up.png; sourceTree = "<group>"; };
-		BFFDE5591902A12F00C42D20 /* FlashMath_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_back.png; sourceTree = "<group>"; };
-		BFFDE55C1902A33900C42D20 /* FlashMath_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_main.png; sourceTree = "<group>"; };
+		BFC93BCA190C44A5007E51EE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BFEF1902190CA927004A768A /* line3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line3.png; sourceTree = "<group>"; };
+		BFEF1906190CAB8D004A768A /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		BFEF190A190CAC46004A768A /* kalvinnrocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalvinnrocket.png; sourceTree = "<group>"; };
+		BFEF190C190CAEB8004A768A /* FlashMath_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_launch.png; sourceTree = "<group>"; };
+		BFEF1910190CAFAA004A768A /* FlashMath_mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_mainmenu.png; sourceTree = "<group>"; };
+		BFEF1912190CB24E004A768A /* mathbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mathbutton.png; sourceTree = "<group>"; };
+		BFEF1914190CB6AE004A768A /* FlashMath_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashMath_main.png; sourceTree = "<group>"; };
+		BFEF1916190CB832004A768A /* popover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC93BCB190C44A5007E51EE /* iAd.framework in Frameworks */,
 				BF96E65918F02F4300C29774 /* CoreGraphics.framework in Frameworks */,
 				BF96E65B18F02F4300C29774 /* UIKit.framework in Frameworks */,
 				BF96E65718F02F4300C29774 /* Foundation.framework in Frameworks */,
@@ -104,9 +131,21 @@
 		BF96E64A18F02F4300C29774 = {
 			isa = PBXGroup;
 			children = (
-				BFFDE55C1902A33900C42D20 /* FlashMath_main.png */,
+				BFAA3C57190ECA170041644D /* itunesartwork.jpg */,
+				BFA5A43E190F05AC00FC93C9 /* green.png */,
+				BFA5A43A190F028800FC93C9 /* newbackarrow.png */,
+				BFEF1914190CB6AE004A768A /* FlashMath_main.png */,
+				BFEF1916190CB832004A768A /* popover.png */,
+				BFEF1912190CB24E004A768A /* mathbutton.png */,
+				BFEF1910190CAFAA004A768A /* FlashMath_mainmenu.png */,
+				BFEF190C190CAEB8004A768A /* FlashMath_launch.png */,
+				BFEF190A190CAC46004A768A /* kalvinnrocket.png */,
+				BFEF1902190CA927004A768A /* line3.png */,
+				BFEF1906190CAB8D004A768A /* rocket.png */,
+				BF5E8E5B190BFE8600953145 /* kidtopper-75.png */,
+				BF5E8E55190BE50E00953145 /* arrow.png */,
 				BFAD3E9818F19B9D00D250F6 /* line2up.png */,
-				BFFDE5591902A12F00C42D20 /* FlashMath_back.png */,
+				BF5E8E57190BFD5F00953145 /* kalvin_circle.png */,
 				BFAD3E9C18F19DC000D250F6 /* line4up.png */,
 				BFAD3E9A18F19D4F00D250F6 /* line3up.png */,
 				BF6A5E2C18F1893000274306 /* line2.png */,
@@ -131,6 +170,7 @@
 		BF96E65518F02F4300C29774 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFC93BCA190C44A5007E51EE /* iAd.framework */,
 				BF96E65618F02F4300C29774 /* Foundation.framework */,
 				BF96E65818F02F4300C29774 /* CoreGraphics.framework */,
 				BF96E65A18F02F4300C29774 /* UIKit.framework */,
@@ -233,6 +273,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = KeithMobile;
 				TargetAttributes = {
+					BF96E65218F02F4300C29774 = {
+						DevelopmentTeam = QAJNCNA729;
+					};
 					BF96E67618F02F4300C29774 = {
 						TestTargetID = BF96E65218F02F4300C29774;
 					};
@@ -262,16 +305,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEF1911190CAFAA004A768A /* FlashMath_mainmenu.png in Resources */,
+				BFA5A43F190F05AC00FC93C9 /* green.png in Resources */,
+				BFA5A43B190F028800FC93C9 /* newbackarrow.png in Resources */,
 				BF96E67218F02F4300C29774 /* Images.xcassets in Resources */,
 				BF96E66118F02F4300C29774 /* InfoPlist.strings in Resources */,
+				BFEF190D190CAEB8004A768A /* FlashMath_launch.png in Resources */,
+				BF5E8E58190BFD5F00953145 /* kalvin_circle.png in Resources */,
+				BFEF1915190CB6AE004A768A /* FlashMath_main.png in Resources */,
 				BF96E69418F04D4E00C29774 /* kidtopper.png in Resources */,
 				BF96E66A18F02F4300C29774 /* Main.storyboard in Resources */,
-				BFFDE55A1902A12F00C42D20 /* FlashMath_back.png in Resources */,
+				BFEF1907190CAB8D004A768A /* rocket.png in Resources */,
+				BFEF1913190CB24E004A768A /* mathbutton.png in Resources */,
+				BFEF1903190CA927004A768A /* line3.png in Resources */,
 				BFAD3E9918F19B9D00D250F6 /* line2up.png in Resources */,
-				BFFDE55D1902A33900C42D20 /* FlashMath_main.png in Resources */,
+				BF5E8E56190BE50E00953145 /* arrow.png in Resources */,
 				BF6A5E2B18F188D600274306 /* line1.png in Resources */,
+				BFEF190B190CAC46004A768A /* kalvinnrocket.png in Resources */,
 				BF6A5E2D18F1893000274306 /* line2.png in Resources */,
 				BFAD3E9B18F19D4F00D250F6 /* line3up.png in Resources */,
+				BFEF1917190CB832004A768A /* popover.png in Resources */,
+				BF5E8E5C190BFE8600953145 /* kidtopper-75.png in Resources */,
+				BFAA3C58190ECA170041644D /* itunesartwork.jpg in Resources */,
 				BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,10 +477,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
 				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,10 +492,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
 				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
