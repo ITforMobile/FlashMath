@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="aVO-UE-KGo">
     <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
@@ -3166,7 +3167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OR4-Vo-aem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-231" y="999"/>
+            <point key="canvasLocation" x="-318" y="972"/>
         </scene>
         <!--Flipside View Controller-->
         <scene sceneID="lym-h4-kxm">
@@ -3183,7 +3184,7 @@
                             <navigationBar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="8Bx-U8-Xwy">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <navigationItem title="Flash Times Tables™" id="UD1-FV-3cM">
+                                    <navigationItem title="FlashMaths™" id="UD1-FV-3cM">
                                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="8zt-ik-JXd">
                                             <connections>
                                                 <action selector="done:" destination="FTa-do-hRx" id="Smr-IQ-WC7"/>
@@ -3199,7 +3200,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="304-Se-0rf">
                                 <rect key="frame" x="20" y="183" width="280" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Brought to you by the makers of KidKalc™ with over 2,000 installations worldwide is Flash Times Tables™. Learning your times tables is the basis of arithmetic. The 12X12 is in your child's homework almost everyday. Practice makes perfect. Load this up on your iPad and let your child learn. Learn at home, learn in the car, learn while you are out to dinner! For more educational math apps for your children, visit KeithMobile.com or KidKalc.com.</string>
+                                <string key="text">Brought to you by the makers of KidKalc™ with over 2,000 installations worldwide is FlashMaths™. Learning your times tables is the basis of arithmetic. The 12X12 is in your child's homework almost everyday. Practice makes perfect. Load this up on your iPad and let your child learn. Learn at home, learn in the car, learn while you are out to dinner! For more educational math apps for your children, visit KeithMobile.com or KidKalc.com.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8484AD17-7FCF-4C7B-8163-395D6372E96C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Flash Times Table</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7539CA37-9D5A-4B40-96CC-0BC90FE9AE4E</key>
+		<string>ssh://github.com/ITforMobile/FlashMath.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Flash Times Table.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7539CA37-9D5A-4B40-96CC-0BC90FE9AE4E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ITforMobile/FlashMath.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7539CA37-9D5A-4B40-96CC-0BC90FE9AE4E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7539CA37-9D5A-4B40-96CC-0BC90FE9AE4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Flash</string>
+		</dict>
+	</array>
+</dict>
+</plist>
