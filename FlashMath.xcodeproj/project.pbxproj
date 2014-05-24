@@ -17,6 +17,9 @@
 		BF0C854E190F3906000D9AD9 /* flashicon58.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C854C190F3906000D9AD9 /* flashicon58.png */; };
 		BF0C8551190F392D000D9AD9 /* flashicon50.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C854F190F392D000D9AD9 /* flashicon50.png */; };
 		BF0C8552190F392D000D9AD9 /* flashicon100.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0C8550190F392D000D9AD9 /* flashicon100.png */; };
+		BF2A28DE193005CB00642734 /* rocket-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2A28DD193005CB00642734 /* rocket-button.png */; };
+		BF2A28E01930063500642734 /* flash-logo-sm.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2A28DF1930063500642734 /* flash-logo-sm.png */; };
+		BF2A28E4193008D000642734 /* readybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2A28E3193008D000642734 /* readybutton.png */; };
 		BF5E8E56190BE50E00953145 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E55190BE50E00953145 /* arrow.png */; };
 		BF5E8E58190BFD5F00953145 /* kalvin_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E57190BFD5F00953145 /* kalvin_circle.png */; };
 		BF5E8E5C190BFE8600953145 /* kidtopper-75.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5E8E5B190BFE8600953145 /* kidtopper-75.png */; };
@@ -77,6 +80,9 @@
 		BF0C854C190F3906000D9AD9 /* flashicon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashicon58.png; sourceTree = "<group>"; };
 		BF0C854F190F392D000D9AD9 /* flashicon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashicon50.png; sourceTree = "<group>"; };
 		BF0C8550190F392D000D9AD9 /* flashicon100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashicon100.png; sourceTree = "<group>"; };
+		BF2A28DD193005CB00642734 /* rocket-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket-button.png"; sourceTree = "<group>"; };
+		BF2A28DF1930063500642734 /* flash-logo-sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash-logo-sm.png"; sourceTree = "<group>"; };
+		BF2A28E3193008D000642734 /* readybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readybutton.png; sourceTree = "<group>"; };
 		BF5E8E55190BE50E00953145 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		BF5E8E57190BFD5F00953145 /* kalvin_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kalvin_circle.png; sourceTree = "<group>"; };
 		BF5E8E5B190BFE8600953145 /* kidtopper-75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kidtopper-75.png"; sourceTree = "<group>"; };
@@ -151,8 +157,11 @@
 		BF96E64A18F02F4300C29774 = {
 			isa = PBXGroup;
 			children = (
+				BF2A28E3193008D000642734 /* readybutton.png */,
+				BF2A28DF1930063500642734 /* flash-logo-sm.png */,
 				BF0C854F190F392D000D9AD9 /* flashicon50.png */,
 				BF0C8550190F392D000D9AD9 /* flashicon100.png */,
+				BF2A28DD193005CB00642734 /* rocket-button.png */,
 				BF0C8545190F38E3000D9AD9 /* flashicon152.png */,
 				BF0C854B190F3906000D9AD9 /* flashicon29.png */,
 				BF0C854C190F3906000D9AD9 /* flashicon58.png */,
@@ -348,7 +357,9 @@
 				BF0C8552190F392D000D9AD9 /* flashicon100.png in Resources */,
 				BF0C854D190F3906000D9AD9 /* flashicon29.png in Resources */,
 				BF96E66A18F02F4300C29774 /* Main.storyboard in Resources */,
+				BF2A28DE193005CB00642734 /* rocket-button.png in Resources */,
 				BF0C8540190F380D000D9AD9 /* flashicon72.png in Resources */,
+				BF2A28E01930063500642734 /* flash-logo-sm.png in Resources */,
 				BFEF1907190CAB8D004A768A /* rocket.png in Resources */,
 				BFEF1913190CB24E004A768A /* mathbutton.png in Resources */,
 				BF0C854E190F3906000D9AD9 /* flashicon58.png in Resources */,
@@ -368,6 +379,7 @@
 				BF0C8546190F38E3000D9AD9 /* flashicon152.png in Resources */,
 				BF0C8551190F392D000D9AD9 /* flashicon50.png in Resources */,
 				BFAD3E9D18F19DC000D250F6 /* line4up.png in Resources */,
+				BF2A28E4193008D000642734 /* readybutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
 				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = FlashMath;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -543,6 +556,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlashMath/FlashMath-Prefix.pch";
 				INFOPLIST_FILE = "FlashMath/FlashMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = FlashMath;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
